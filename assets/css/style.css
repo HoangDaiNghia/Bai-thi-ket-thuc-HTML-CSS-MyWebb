@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    z-index: 1;
+}
+
+
+#main .header {
+    background-color: yellowgreen;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 1000px;
+}
+
+
+.header__logo {
+    height: 91px;
+    width: auto;
+}
+
+
+.header li:hover form {
+    display: block;
+}
+
+
+.header__nav li{
+    display: inline-block;
+    position: relative;
+}
+
+
+.header__nav a{
+    color: #fff;
+    line-height: 100px;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+.header__nav li:hover a {
+    background-color: #aaa;
+    color: #000;
+}
+
+/* submit */
+
+.form {
+    position: absolute;
+    right: 600px;
+    top: 250px;
+    background-color: rgb(46, 216, 179);
+    padding: 20px 20px;
+    border-radius: 15px;
+    display: none;
+}
+
+
+.form > label {
+    min-width: 330px;
+
+}
+
+.form__fullname {
+
+}
+
+
+.form__gerder {
+
+}
+
+
+.form-email {
+
+}
+
+
+.form__username {
+
+}
+
+
+.form__password {
+
+}
+
+
+.form-submit {
+
+}
+
+
+.form__fullname--inline {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+}
+
+
+.form__fullname--inline > label {
+    /* margin-right: 30px; */
+    width: 100px;
+    display: inline;
+    font-size: 18px;
+}
+
+
+.form__fullname--inline > input, button {
+    padding: 5px 5px;
+    border: 1px solid #888;
+    outline: transparent;
+    border-radius: 4px;
+}
+
+
+.form__fullname--inline > button, span {
+    margin-right: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+/* content */
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 40px;
+    background-color: pink;
+}
+
+
+.content__img,
+.content-text1,
+.content-text2 {
+    width: 460px;
+    line-height: 1.4;
+}
+
+
+
+.content__img {
+    text-align: center;
+}
+
+
+.content-text1 {
+    text-align: right;
+}
+
+
+.content-text1__heading {
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.content-text1__subhead {
+    margin-right: 30px;
+    letter-spacing: 5px;
+    opacity: 0.6;
+}
+
+
+.content-text1__contact {
+    margin: 20px 0px 15px;
+}
+
+
+.content-text1__texend {
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+
+
+.content-text2 > p {
+    margin: 20px 0px;
+}
+
+
+.content-text2__text {
+    text-decoration: underline;
+}
+
+
+.footer {
+    background-color: #757575;
+    min-height: 100px;
+}
+
+
+.footer > p {
+    color: #fff;
+    padding: 20px 15px;
+}
